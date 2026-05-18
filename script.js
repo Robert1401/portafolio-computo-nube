@@ -137,7 +137,7 @@ const unidades = {
   "Se completó satisfactoriamente el examen de Arquitectura de la Nube, demostrando conocimientos sobre AWS, Azure, Google Cloud, Kubernetes, Docker, DevOps, redes virtuales, servicios serverless y bases de datos SQL y NoSQL.",
   "Este examen me ayudó a reforzar conceptos importantes relacionados con plataformas cloud, servicios administrados y arquitectura de la nube, además de identificar la importancia de tecnologías modernas utilizadas en entornos cloud.",
   "Capturas del examen realizadas en la plataforma Moodle institucional y documento PDF con evidencias de preguntas y resultados obtenidos.",
-  "./Tareas/unidad-2/2-examen-arquitectura-nube.pdf"
+  "./Tareas/unidad 2/2-examen-arquitectura-nube.pdf"
 ]
   ]
 },
