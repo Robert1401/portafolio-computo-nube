@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evidencia | Cómputo en la Nube</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="magic-symbols">
+  <span>☽</span>
+  <span>✦</span>
+  <span>☾</span>
+  <span>✧</span>
+  <span>☽</span>
+</div>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="pentagram">
+        <img src="./img/Long.png" alt="Logo">
+      </div>
+      <div>
+        <h1>MIS TAREAS</h1>
+        <p>Vista de evidencia</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="index.html#evidencias">← Regresar al portafolio</a>
+    </nav>
+
+    <div class="character">
+      <img src="./img/Mago3.png" alt="Personaje">
+    </div>
+  </aside>
+
+  <main class="content">
+
+    <header class="topbar">
+      <div>
+        <h2>EVIDENCIA, <span>SELECCIONADA</span></h2>
+        <p>Consulta del documento correspondiente a la tarea.</p>
+      </div>
+
+      <div class="top-actions">
+        <div class="time" id="time">00:00:00 AM</div>
+        <div class="date" id="date"></div>
+      </div>
+    </header>
+
+    <section class="panel intro-panel">
+      <h2 id="evidenceTitle">Título de la evidencia</h2>
+      <p id="evidenceDescription">Descripción de la evidencia.</p>
+
+      <div class="task-info-grid">
+
+        <div>
+          <strong>Descripción:</strong>
+          <span id="taskDescription">---</span>
+        </div>
+
+        <div>
+          <strong>Fecha:</strong>
+          <span id="taskDate">---</span>
+        </div>
+
+        <div>
+          <strong>Resultados:</strong>
+          <span id="taskResults">---</span>
+        </div>
+
+        <div>
+          <strong>Reflexión personal:</strong>
+          <span id="taskReflection">---</span>
+        </div>
+
+        <div>
+          <strong>Anexos:</strong>
+          <span id="taskAnnexes">---</span>
+        </div>
+
+        <div>
+          <strong>Tipo de evidencia:</strong>
+          <span id="taskType">---</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="panel intro-panel">
+      <h2>Vista del PDF</h2>
+
+      <div class="pdf-viewer-page">
+        <iframe id="pdfViewer" src=""></iframe>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Mis Tareas - Portafolio de Evidencias | Cómputo en la Nube
+    </footer>
+
+  </main>
+</div>
+
+<script src="evidencia.js"></script>
+</body>
+</html>

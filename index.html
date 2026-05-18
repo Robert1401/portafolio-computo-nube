@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Evidencias | Cómputo en la Nube</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="magic-symbols">
+  <span>☽</span>
+  <span>✦</span>
+  <span>☾</span>
+  <span>✧</span>
+  <span>☽</span>
+</div>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="pentagram">
+        <img src="./img/Long.png" alt="Logo">
+      </div>
+      <div>
+        <h1>PORTAFOLIO DE EVIDENCIAS</h1>
+        <p>Cómputo en la Nube</p>
+      </div>
+    </div>
+
+    <nav>
+      <a class="active" href="#portada">⌂ Portada</a>
+      <a href="#introduccion">☑ Introducción</a>
+      <a href="#objetivos">🎯 Objetivos</a>
+      <a href="#unidades">☁ Unidades</a>
+      <a href="#reflexion">📝 Reflexión</a>
+      <a href="#conclusion">✅ Conclusión</a>
+      <a href="#video">🎥 Video</a>
+    </nav>
+
+    <div class="character">
+      <img src="./img/Mago3.png" alt="Personaje">
+    </div>
+  </aside>
+
+  <main class="content">
+
+    <header class="topbar" id="portada">
+      <div class="top-character">
+        <img src="./img/personaje.png" alt="Personaje">
+      </div>
+
+      <div>
+        <h2>BIENVENIDO, <span>ROBERTO</span></h2>
+        <p>Portafolio de evidencias de Cómputo en la Nube.</p>
+      </div>
+
+      <div class="top-actions">
+        <div class="time" id="time">00:00:00 AM</div>
+        <div class="date" id="date"></div>
+      </div>
+    </header>
+
+    <section class="stats">
+      <div class="card stat green">
+        <span>☁️</span>
+        <h3>5</h3>
+        <p>Unidades</p>
+        <small>Del curso</small>
+      </div>
+
+      <div class="card stat blue">
+        <span>📋</span>
+        <h3 id="taskCounter">0</h3>
+        <p>Tareas</p>
+        <small>Registradas</small>
+      </div>
+
+      <div class="card stat green">
+        <span>✓</span>
+        <h3>100%</h3>
+        <p>Portafolio</p>
+        <small>Organizado</small>
+      </div>
+
+      <div class="card stat yellow">
+        <span>🚀</span>
+        <h3>CN</h3>
+        <p>Cómputo</p>
+        <small>En la nube</small>
+      </div>
+    </section>
+
+    <section class="main-grid">
+
+      <div class="left-area">
+
+        <section class="panel intro-panel" id="introduccion">
+          <h2>Introducción</h2>
+          <p>
+            Este portafolio de evidencias reúne las actividades, prácticas, proyectos y evaluaciones desarrolladas durante la materia de Cómputo en la Nube. Su propósito es mostrar de forma organizada los conocimientos adquiridos, así como las habilidades desarrolladas en temas relacionados con servicios cloud, virtualización, contenedores, seguridad informática y despliegue de aplicaciones.
+          </p>
+        </section>
+
+        <section class="panel intro-panel" id="objetivos">
+          <h2>Objetivos</h2>
+          <p>
+            Presentar de manera organizada las evidencias desarrolladas durante el curso de Cómputo en la Nube, demostrando los conocimientos adquiridos sobre plataformas cloud, virtualización, seguridad informática, despliegue de aplicaciones y administración de servicios tecnológicos.
+          </p>
+        </section>
+
+        <section class="panel units-panel" id="unidades">
+          <div class="panel-header">
+            <div>
+              <h2>Unidades del curso</h2>
+              <p>Selecciona una unidad para ver sus tareas.</p>
+            </div>
+
+            <div class="search">
+              <input type="text" id="searchInput" placeholder="Buscar tarea..." />
+              <button type="button">🔍</button>
+            </div>
+          </div>
+
+          <div class="unit-buttons">
+            <button class="unit-btn active" data-unit="1">
+              <span>☁️</span>
+              <strong>1</strong>
+              <p>Fundamentos</p>
+            </button>
+
+            <button class="unit-btn" data-unit="2">
+              <span>🌐</span>
+              <strong>2</strong>
+              <p>Arquitectura</p>
+            </button>
+
+            <button class="unit-btn" data-unit="3">
+              <span>🧩</span>
+              <strong>3</strong>
+              <p>Desarrollo</p>
+            </button>
+
+            <button class="unit-btn" data-unit="4">
+              <span>🔐</span>
+              <strong>4</strong>
+              <p>Seguridad</p>
+            </button>
+
+            <button class="unit-btn" data-unit="5">
+              <span>🚀</span>
+              <strong>5</strong>
+              <p>Proyecto final</p>
+            </button>
+          </div>
+        </section>
+
+        <section class="panel evidence-panel" id="evidencias">
+          <div class="unit-header">
+            <div>
+              <h2 id="unitTitle">Unidad 1</h2>
+              <p id="unitDescription">Fundamentos y conceptos principales del cómputo en la nube.</p>
+            </div>
+          </div>
+
+          <div class="evidence-list" id="evidenceList"></div>
+
+          <div class="see-more">✦ Portafolio de tareas académicas ✦</div>
+        </section>
+
+        <section class="panel intro-panel" id="reflexion">
+          <h2>Reflexión final</h2>
+          <p>
+            Durante el curso reforcé mis conocimientos sobre servicios en la nube y comprendí mejor cómo se
+            pueden utilizar para crear, administrar y desplegar aplicaciones. Las prácticas me ayudaron a ver
+            la importancia de la configuración correcta, la seguridad, la documentación y el uso de herramientas
+            modernas dentro de un ambiente cloud.
+          </p>
+        </section>
+
+        <section class="panel intro-panel" id="conclusion">
+          <h2>Conclusión</h2>
+          <p>
+            Este portafolio representa el avance obtenido durante el curso, integrando evidencias,
+            prácticas y actividades relacionadas con infraestructura en la nube, seguridad, virtualización,
+            contenedores y despliegue de aplicaciones. Su organización permite consultar cada evidencia
+            de forma clara mediante archivos PDF y enlaces de revisión.
+          </p>
+        </section>
+
+        <section class="panel intro-panel" id="video">
+          <h2>Video explicativo</h2>
+          <p>
+            En esta sección se colocará el enlace del video explicativo del portafolio.
+            El video tendrá una duración máxima de 3 minutos y mostrará la estructura de la página,
+            las unidades del curso y la forma en que se consultan las evidencias.
+          </p>
+
+          <div class="video-box">
+            <span>🎥</span>
+            <p id="videoStatus">Aún no se ha agregado un enlace.</p>
+
+            <input 
+              type="url" 
+              id="videoInput" 
+              placeholder="Pega aquí el enlace de YouTube o Drive"
+              class="video-input"
+            />
+
+            <button type="button" id="saveVideoBtn" class="save-video-btn">
+              Guardar enlace
+            </button>
+
+            <a href="#" target="_blank" id="videoLink" class="video-link-hidden">
+              Abrir video explicativo
+            </a>
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="right-area">
+
+        <section class="panel student-card">
+          <h2>Datos del estudiante</h2>
+          <p><strong>Alumno:</strong> Roberto Aram López Rodríguez</p>
+          <p><strong>Materia:</strong> Cómputo en la Nube</p>
+          <p><strong>Profesor:</strong> Miguel Salazar del Bosque</p>
+          <p><strong>Institución:</strong> Instituto Tecnológico de Saltillo</p>
+          <p><strong>Fecha:</strong> 22/05/2026</p>
+        </section>
+
+        <section class="panel message">
+          <h2>Estado del portafolio</h2>
+          <p>
+            El portafolio está organizado por unidades. Cada tarea cuenta con un botón para consultar
+            su evidencia en una página individual con el mismo diseño del portafolio.
+          </p>
+          <small>Portafolio web académico</small>
+        </section>
+
+      </aside>
+
+    </section>
+
+    <footer>
+      © 2025 Mis Tareas - Portafolio de Evidencias | Cómputo en la Nube
+    </footer>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
